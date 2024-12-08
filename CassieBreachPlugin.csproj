@@ -1,0 +1,16 @@
+
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net472</TargetFramework>
+    <RootNamespace>CassieBreachPlugin</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Exiled.API">
+      <HintPath>path_to_exiled_api/Exiled.API.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
